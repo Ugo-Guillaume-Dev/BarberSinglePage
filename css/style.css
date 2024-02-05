@@ -1,0 +1,8 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  min-height: 300px;
+  padding-top: 30px;
+}
