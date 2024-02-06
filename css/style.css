@@ -1,8 +1,67 @@
+/* RESET : */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES : */
+
+/* couleur */
+:root {
+  --primary: #D4AA5F;
+  --secondary: #FFFFFF;
+  --gray: #A5A5A5;
+}
+
+/* GENERAL :  */
+
+:root {
+  /* 10px */
+  font-size: 62.5%;
+}
+
+html,
 body {
   background-color: #f0f0f0;
+  max-width: 1400px; /* A modifier pour le responsive */
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block; /* Supprime l'espace en dessous des images */
+  max-width: 100%; /* Permet à l'image de s'adapter à la largeur du conteneur */
+  height: auto; /* Conserve l'aspect ratio de l'image */
+  object-fit: cover; /* Couvre le conteneur sans perdre les proportions */
+  object-position: center; /* Centre l'image dans le conteneur */
+}
+
+/* CONTAINER */
 
 .container {
   min-height: 300px;
   padding-top: 30px;
+}
+
+.container_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
