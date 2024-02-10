@@ -7,38 +7,90 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="only screen and (max-width:768px)" href="/CSS/style.mobile.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;700&family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/7807207f58.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-  <header class="pt-3">
-    <div class="container_img">
-      <!-- <img src="/img/LOGO Barber Noir.webp" alt="logo du BarberShop" class=""> -->
-    </div>
-    <div>
-      <p class="has-text-centered is-size-7">MEN</p>
-      <p class="has-text-centered is-size-4"><i class="fa-solid fa-scissors fa-rotate-270"></i></p>
-    </div>
-    <nav></nav>
-  </header>
   <!-- /* SECTION HOME */ -->
-  <section class="container">
-    <h1 class="title has-text-centered">Barber Shop Haircut</h1>
+  <section class="container section-home pt-6" >
+    <header class="pt-3">
+      <div class="logo-content">
+        <img src="/img/LOGO Barber 2.webp" alt="logo du BarberShop">
+      </div>
+      <div>
+        <p class="has-text-centered is-size-6" style="color: var(--primary)">MEN</p>
+        <p class="has-text-centered is-size-2 pt-3 pb-6" style="color: var(--secondary)"><i class="fa-solid fa-scissors fa-rotate-270"></i></p>
+      </div>
+    </header>
+    <div>
+      <h1 class="has-text-centered is-uppercase p-5" style="font-family: 'Tiro Devanagari Marathi', serif; line-height: 6.5rem; font-size: 4.5rem; color: var(--primary)">Barber Shop<br><span style="color: var(--secondary)">Haircut</span></h1>
+      <div class="is-flex pb-6" style="flex-direction: column; align-items: center">
+        <p class="has-text-centered is-uppercase is-size-5 mt-5" style="width: 500px; color: var(--secondary);">Vous recherchez un Barber-Shop dans les alentours de Toulouse ?</p>
+        <p class="has-text-centered is-uppercase p-5 is-size-5" style="width: 470px; color: var(--secondary);">BarberShop vous propose des soins adaptés pour tout âges, tout types de cheveux et à tout types d'envies.</p>
+        <button class="has-text-centered button" style="background-color: var(--primary); border: none; height: 5rem; width: 15rem; margin-top: 7rem"><span class="is-uppercase has-text-weight-bold">Nos Services</span></button>
+      </div>
+    </div>
+    <div style="margin-top: 6rem; width: 100%; border-top: 0.8px solid var(--gray);">
+      <div class="columns is-12 p-5" style="width: 100%; height: 12rem;">
+        <div class="column is-4" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
+          <h3 class="title is-uppercase" style="color: var(--primary); margin-bottom: 1rem;">Adresse</h3>
+          <p class="is-uppercase is-size-5" style="color: var(--secondary); font-family: 'Baloo Bhaijaan 2', sans-serif;">19 rue Boltar, 31600 SEYSSES</p>
+          <br>
+        </div>
+        <div class="column is-4" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; border-left: 0.8px solid var(--gray); border-right: 0.8px solid var(--gray)">
+          <h3 class="title is-uppercase" style="color: var(--primary); margin-bottom: 0;">Téléphone</h3>
+          <p class="is-uppercase is-size-5" style="color: var(--secondary); font-family: 'Baloo Bhaijaan 2', sans-serif;">05.61.40.41.50</p>
+          <p class="is-uppercase is-size-5" style="color: var(--secondary); font-family: 'Baloo Bhaijaan 2', sans-serif;">06.17.90.95.26</p>
+        </div>
+        <div class="column is-4" style="display: flex; flex-direction: column; align-items: center; justify-content: space-between;">
+          <h3 class="title is-uppercase" style="color: var(--primary); margin-bottom: 0;">Horaires</h3>
+          <p class="is-uppercase is-size-5" style="color: var(--secondary); font-family: 'Baloo Bhaijaan 2', sans-serif;">Lundi au Samedi</p>
+          <p class="is-uppercase is-size-5" style="color: var(--secondary); font-family: 'Baloo Bhaijaan 2', sans-serif;">9h30 - 19h30</p>
+          <p class="is-size-5 is-italic" style="color: var(--gray); font-family: 'Baloo Bhaijaan 2', sans-serif;">Salon fermé le Dimanche</p>
+        </div>
+      </div>
+    </div>
+    </div>
   </section>
   <!-- /* SECTION BARBER SHOP */ -->
-  <section class="container">
-    <h2 class="title has-text-centered">Bienvenue chez Barber Shop</h2>
+  <section class="container" style="border-top: 0.8px solid var(--gray);">
+    <div class="columns is-12" style="height: 100vh; margin: 0;">
+      <div class="column is-6 section-img-barber-shop p-0">
+      </div>
+      <div class="column is-6 p-6 section-barber-shop has-text-centered" style="display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+        <h3 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 is-uppercase" style="margin-top: 7rem">Bienvenue chez BarberShop</h3>
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: space-between; height: 300px;">
+          <p class="has-text-centered is-uppercase is-size-4 p-5" style="color: var(--primary); width: 380px;">Retrouvez nous dans un salon préparé pour vos soins, cheveux, barbes, countours etc...</p>
+          <p class="has-text-centered is-uppercase is-size-5 p-6" style="color: var(--secondary);">Découvrez nos plus belles prestations directement dans la galerie.</p>
+        </div>
+        <button class="has-text-centered button" style="background-color: var(--primary); border: none; height: 5rem; width: 15rem; margin-bottom: 7rem;"><span class="is-uppercase has-text-weight-bold">Voir la galerie</span></button>
+      </div>
+    </div>
   </section>
   <!-- /* SECTION SERVICE */ -->
-  <section class="container" style="background-color: #1c1c1c;">
-    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 has-text-weight-bold">Nos services</h2>
+  <section class="container" style="background-color: #1c1c1c; border-top: 0.8px solid var(--gray);">
+    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 mt-6 has-text-weight-bold is-uppercase" style="margin-bottom: 0; line-height: 0.8;">Nos services</h2>
     <div class="columns is-marginless is-centered is-mobile pb-6">
       <div class="column is-paddingless is-narrow">
         <div class="is-flex is-align-items-center">
-          <i class="fa-solid fa-scissors fa-rotate-45 is-size-2 is-size-3-mobile has-text-yellow"></i>
-          <div style="width: 250px; height: 1px; background-color: #f8c46c;"></div>
-          <i class="fa-solid fa-scissors fa-rotate-180 is-size-2 is-size-3-mobile has-text-yellow"></i>
+          <div class="border-title" style="width: 250px; height: 1px; background-color: #f8c46c; position: relative;"></div>
         </div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; justify-content: space-evenly; height: 650px;">
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <p class="has-text-centered is-uppercase is-size-4 p-5" style="color: var(--primary); width: 380px;">Venir pour une coupe ou bien une barbe, le temps qu'on s'occupe de tout.</p>
+      </div>
+      <div class="columns is-12 p-3" style="display: flex; gap: 30px; justify-content: center;">
+        <div style="background-color: black; height: 280px;" class="column is-2"></div>
+        <div style="background-color: black;" class="column is-2"></div>
+        <div style="background-color: black;" class="column is-2"></div>
+        <div style="background-color: black;" class="column is-2"></div>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <div style="border: 0.8px solid var(--primary); width: 100%; margin-left: 12rem; margin-right: 12rem;"></div>
       </div>
     </div>
   </section>
@@ -59,7 +111,7 @@
       </section>
       <!-- <h2 class="title is-size-4 has-text-yellow has-text-weight-bold pr-6 ">RETOUR EN HAUT</h2> -->
     </div>
-    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 has-text-weight-bold">Galerie</h2>
+    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 has-text-weight-bold is-uppercase">Galerie</h2>
     <div class="columns is-marginless is-centered is-mobile pb-6">
       <div class="column is-paddingless is-narrow">
         <div class="is-flex is-align-items-center">
@@ -104,7 +156,7 @@
   </section>
   <!-- /* SECTION AVIS */ -->
   <section class="container section-avis p-6">
-    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6">Vos avis</h2>
+    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 is-uppercase">Vos avis</h2>
     <div class="columns is-marginless is-centered is-mobile pb-5">
       <div class="column is-paddingless is-narrow">
         <div class="is-flex is-align-items-center">
@@ -138,7 +190,7 @@
   <!-- /* SECTION GOOGLE MAPS */ -->
   <section class="container">
     <!-- Google Maps -->
-    <div id="map" style="height:600px; width:100%;"></div>
+    <div id="map" style="height: 900px; width:100%;"></div>
   </section>
   <!-- /* SECTION TARIF */ -->
   <section class="container is-fullwidth section-tarif p-6">
@@ -159,7 +211,7 @@
       <div style="width: 2px; height: 100%; background-color: white;" class="is-fullheight"></div>
       <p class="has-text-white is-size-1 is-size-3-mobile"><i class="fa-solid fa-scissors fa-rotate-270" style="margin-bottom: 40px;"></i></p>
     </div>
-    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 has-text-weight-bold">Nos tarifs</h2>
+    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 has-text-weight-bold is-uppercase">Nos tarifs</h2>
     <div class="columns is-marginless is-centered is-mobile pb-6">
       <div class="column is-paddingless is-narrow">
         <div class="is-flex is-align-items-center">
