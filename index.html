@@ -6,18 +6,14 @@
   <title>Chez momo</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <link
-    rel="stylesheet"
-    media="only screen and (max-width:768px)"
-    href="/CSS/style.mobile.css"
-  />
+  <link rel="stylesheet" media="only screen and (max-width:768px)" href="/CSS/style.mobile.css"/>
   <script src="https://kit.fontawesome.com/7807207f58.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+
   <header class="pt-3">
     <div class="container_img">
-      <img src="/img/LOGO Barber Noir.webp" alt="logo du BarberShop" class="">
+      <!-- <img src="/img/LOGO Barber Noir.webp" alt="logo du BarberShop" class=""> -->
     </div>
     <div>
       <p class="has-text-centered is-size-7">MEN</p>
@@ -25,37 +21,188 @@
     </div>
     <nav></nav>
   </header>
-
+  <!-- /* SECTION HOME */ -->
   <section class="container">
     <h1 class="title has-text-centered">Barber Shop Haircut</h1>
   </section>
-
+  <!-- /* SECTION BARBER SHOP */ -->
   <section class="container">
     <h2 class="title has-text-centered">Bienvenue chez Barber Shop</h2>
   </section>
-
-  <section class="container">
-    <h2 class="title has-text-centered">Nos services</h2>
+  <!-- /* SECTION SERVICE */ -->
+  <section class="container" style="background-color: #1c1c1c;">
+    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 has-text-weight-bold">Nos services</h2>
+    <div class="columns is-marginless is-centered is-mobile pb-6">
+      <div class="column is-paddingless is-narrow">
+        <div class="is-flex is-align-items-center">
+          <i class="fa-solid fa-scissors fa-rotate-45 is-size-2 is-size-3-mobile has-text-yellow"></i>
+          <div style="width: 250px; height: 1px; background-color: #f8c46c;"></div>
+          <i class="fa-solid fa-scissors fa-rotate-180 is-size-2 is-size-3-mobile has-text-yellow"></i>
+        </div>
+      </div>
+    </div>
   </section>
-
-  <section class="container">
-    <h2 class="title has-text-centered">Galerie</h2>
+  <!-- /* SECTION GALERIE */ -->
+  <section class="container p-6" style="background-color: #000000;">
+    <div class="logo-content">
+      <img src="/img/LOGO Barber 2.webp" alt="logo du BarberShop">
+    </div>
+    <div class="is-flex is-align-items-center is-hidden-mobile" style="position: absolute; right: 40px; top: 60px;">
+      <p class="has-text-white is-size-4 is-size-6-mobile mr-3">Réalisation / Salon</p>
+      <section title=".slide">
+        <!-- .slideThree -->
+        <div class="slide">  
+          <input type="checkbox" value="None" id="slide" name="check" checked />
+          <label for="slide"></label>
+        </div>
+        <!-- end .slideThree -->
+      </section>
+      <!-- <h2 class="title is-size-4 has-text-yellow has-text-weight-bold pr-6 ">RETOUR EN HAUT</h2> -->
+    </div>
+    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 has-text-weight-bold">Galerie</h2>
+    <div class="columns is-marginless is-centered is-mobile pb-6">
+      <div class="column is-paddingless is-narrow">
+        <div class="is-flex is-align-items-center">
+          <i class="fa-solid fa-scissors fa-rotate-45 is-size-2 is-size-3-mobile has-text-yellow"></i>
+          <div style="width: 250px; height: 1px; background-color: #f8c46c;"></div>
+          <i class="fa-solid fa-scissors fa-rotate-180 is-size-2 is-size-3-mobile has-text-yellow"></i>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered pl-6 pr-6">
+      <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+        <div class="image-container p-4">
+          <img src="/img/coupes/coupe_1.png" alt="logo du BarberShop">
+        </div>
+      </div>
+      <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+        <div class="image-container p-4">
+          <img src="/img/coupes/coupe_2.png" alt="logo du BarberShop">
+        </div>
+      </div>
+      <div class="column is-3 is-flex is-align-items-center is-justify-content-center is-full-mobile">
+        <div class="image-container p-4">
+          <img src="/img/coupes/coupe_3.png" alt="logo du BarberShop">
+        </div>
+      </div>
+      <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+        <div class="image-container p-4">
+          <img src="/img/coupes/coupe_4.png" alt="logo du BarberShop">
+        </div>
+      </div>
+      <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+        <div class="image-container p-4">
+          <img src="/img/coupes/coupe_5.png" alt="logo du BarberShop">
+        </div>
+      </div>
+    </div>
+    <div class="columns is-marginless is-centered is-flex is-align-items-center is-justify-content-center m-6">
+      <i class="fa-solid fa-circle-left has-text-yellow is-size-3 is-clickable"></i>
+      <div style="width: 100px; height: 1px; background-color: #f8c46c;" class="ml-6 mr-6"></div>
+      <i class="fa-solid fa-circle-right has-text-yellow is-size-3 is-clickable"></i>
+    </div>
   </section>
-
-  <section class="container">
-    <h2 class="title has-text-centered">Vos avis</h2>
+  <!-- /* SECTION AVIS */ -->
+  <section class="container section-avis p-6">
+    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6">Vos avis</h2>
+    <div class="columns is-marginless is-centered is-mobile pb-5">
+      <div class="column is-paddingless is-narrow">
+        <div class="is-flex is-align-items-center">
+          <i class="fa-solid fa-scissors fa-rotate-45 is-size-2 is-size-3-mobile has-text-yellow"></i>
+          <div style="width: 250px; height: 1px; background-color: #f8c46c;"></div>
+          <i class="fa-solid fa-scissors fa-rotate-180 is-size-2 is-size-3-mobile has-text-yellow"></i>
+        </div>
+      </div>
+    </div>
+    <h2 class="title is-size-5 is-size-6-mobile has-text-centered has-text-weight-light has-text-white is-uppercase">Vos avis compent beaucoup pour nous.</h2>
+    <h2 class="title is-size-5 is-size-6-mobile has-text-centered has-text-weight-light has-text-white is-uppercase">C'est vous qui faites la différence.</h2>
+    <div class="columns is-marginless is-centered is-flex mt-6 is-multiline">
+      <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3"></div>
+      <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3"></div>
+      <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3"></div>
+    </div>
+    <div class="columns is-marginless is-centered is-flex is-align-items-center is-justify-content-center mt-6">
+      <i class="fa-solid fa-circle-left has-text-yellow is-size-3 is-clickable"></i>
+      <div style="width: 100px; height: 1px; background-color: #f8c46c;" class="ml-6 mr-6"></div>
+      <i class="fa-solid fa-circle-right has-text-yellow is-size-3 is-clickable"></i>
+    </div>
+    <div class="columns is-flex is-justify-content-center is-align-items-center m-6">
+      <div class="column is-6 is-flex flex-column is-align-items-center">
+        <img src="/img/Moustaki.webp" alt="logo du BarberShop">
+      </div>
+      <div class="column is-6 is-flex flex-column is-align-items-center display">
+        <img src="/img/Moustaki.webp" alt="logo du BarberShop" style="transform: rotate(180deg);">
+      </div>
+    </div>
   </section>
-
+  <!-- /* SECTION GOOGLE MAPS */ -->
   <section class="container">
     <!-- Google Maps -->
-    <div id="map" style="height:400px; width:100%;"></div>
+    <div id="map" style="height:600px; width:100%;"></div>
+  </section>
+  <!-- /* SECTION TARIF */ -->
+  <section class="container is-fullwidth section-tarif p-6">
+    <div class="logo-content">
+      <img src="/img/LOGO Barber 2.webp" alt="logo du BarberShop">
+    </div>
+    <div class="columns is-marginless flex-column is-flex is-align-items-center is-justify-content-center is-fullheight display" style="position: absolute; left: 0; top: 0;">
+      <div class="is-flex is-clickable" style="transform: rotate(270deg);">
+        <h2 class="title is-size-4 has-text-yellow has-text-weight-bold pr-6 ">RETOUR EN HAUT</h2>
+        <p class="has-text-centered"><i class="fa-solid fa-arrow-up fa-rotate-90 is-size-4 has-text-yellow"></i></p>
+      </div>
+    </div>
+    <div class="columns is-marginless flex-column is-flex is-align-items-center is-justify-content-space-between is-fullheight display" style="position: absolute; right: 40px; top: 0;">
+      <p class="has-text-white is-size-1 is-size-3-mobile"><i class="fa-solid fa-scissors fa-rotate-90" style="margin-top: 40px;"></i></p>
+      <div style="width: 2px; height: 100%; background-color: white;" class="is-fullheight"></div>
+      <i class="fa-brands fa-instagram is-size-2 is-size-3-mobile has-text-yellow p-5 is-clickable"></i>
+      <i class="fa-brands fa-facebook is-size-2 is-size-3-mobile has-text-yellow p-5 is-clickable"></i>
+      <div style="width: 2px; height: 100%; background-color: white;" class="is-fullheight"></div>
+      <p class="has-text-white is-size-1 is-size-3-mobile"><i class="fa-solid fa-scissors fa-rotate-270" style="margin-bottom: 40px;"></i></p>
+    </div>
+    <h2 class="title is-size-1 is-size-3-mobile has-text-centered has-text-white pt-6 has-text-weight-bold">Nos tarifs</h2>
+    <div class="columns is-marginless is-centered is-mobile pb-6">
+      <div class="column is-paddingless is-narrow">
+        <div class="is-flex is-align-items-center">
+          <i class="fa-solid fa-scissors fa-rotate-45 is-size-2 is-size-3-mobile has-text-yellow"></i>
+          <div style="width: 250px; height: 1px; background-color: #f8c46c;"></div>
+          <i class="fa-solid fa-scissors fa-rotate-180 is-size-2 is-size-3-mobile has-text-yellow"></i>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-marginless flex-column is-flex is-align-items-center">
+      <div class="column is-7 is-flex flex-column is-align-items-center border-color p-5">
+        <div class="column is-12 is-flex flex-column is-align-items-center border-color p-6">
+          <div class="is-fullwidth is-flex is-justify-content-space-between border-bottom-color is-paddingless mb-6">
+            <h2 class="title has-text-white has-text-weight-normal is-size-2 is-size-4-mobile pr-6 no-wrap">Coupe Homme</h2>
+            <h2 class="title has-text-white has-text-weight-normal is-size-2 is-size-4-mobile no-wrap">13 €</h2>
+          </div>
+          <div class="is-fullwidth is-flex is-justify-content-space-between border-bottom-color is-paddingless mb-6 mt-6">
+            <h2 class="title has-text-white has-text-weight-normal is-size-2 is-size-4-mobile pr-6 no-wrap">Coupe + Barbe</h2>
+            <h2 class="title has-text-white has-text-weight-normal is-size-2 is-size-4-mobile no-wrap">20 €</h2>
+          </div>
+          <div class="is-fullwidth is-flex is-justify-content-space-between border-bottom-color is-paddingless mb-6 mt-6">
+            <h2 class="title has-text-white has-text-weight-normal is-size-2 is-size-4-mobile pr-6 no-wrap">Barbe</h2>
+            <h2 class="title has-text-white has-text-weight-normal is-size-2 is-size-4-mobile no-wrap">7 €</h2>
+          </div>
+          <div class="is-fullwidth is-flex is-justify-content-space-between border-bottom-color is-paddingless mt-6">
+            <h2 class="title has-text-white has-text-weight-normal is-size-2 is-size-4-mobile pr-6 no-wrap">Shampoing</h2>
+            <h2 class="title has-text-white has-text-weight-normal is-size-2 is-size-4-mobile no-wrap">3 €</h2>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6" style="width: 50%; height: 1px; background-color: white;"></div>
+    </div>
+    <div class="columns is-marginless flex-column is-flex is-align-items-center">
+      <div class="is-flex">
+        <h3 class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Accueil</h3>
+        <h3 class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Services</h3>
+        <h3 class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Galerie</h3>
+      </div>
+      <p class="title is-size-5 has-text-white has-text-weight-normal no-wrap mt-3">Copyright ® 2024. Tout droits reservés</p>
+    </div>
   </section>
 
-  <section class="container">
-    <h2 class="title has-text-centered">Nos tarifs</h2>
-  </section>
-
-  <footer>
+  <footer class="container">
   </footer>
 
   <script src="js/script.js"></script>
