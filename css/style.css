@@ -6,13 +6,35 @@
   box-sizing: border-box;
 }
 
-/* VARIABLES : */
-
 /* couleur */
 :root {
   --primary: #D4AA5F;
   --secondary: #FFFFFF;
   --gray: #A5A5A5;
+}
+
+.is-color-primary {
+  color: var(--primary);
+}
+
+.is-color-secondary {
+  color: var(--secondary);
+}
+
+.is-color-gray {
+  color: var(--gray);
+}
+
+.is-background-primary {
+  background-color: var(--primary);
+}
+
+.is-background-secondary {
+  background-color: var(--secondary);
+}
+
+.is-background-gray {
+  background-color: var(--gray);
 }
 
 /* GENERAL :  */
@@ -26,7 +48,16 @@ html,
 body {
   font-family: 'Tiro Devanagari Marathi', serif;
   background-color: #f0f0f0;
-  /*max-width: 1400px; /* A modifier pour le responsive */
+  min-width: 350px;
+  max-width: 1500px; /* A modifier pour le responsive */
+}
+
+.is-font-tiro {
+  font-family: 'Tiro Devanagari Marathi', serif;
+}
+
+.is-font-baloo {
+  font-family: 'Baloo Bhaijaan 2', sans-serif;
 }
 
 h1,
@@ -47,6 +78,12 @@ ul {
   list-style: none;
 }
 
+.btn-style {
+  border: none;
+  height: 5rem;
+  width: 15rem;
+  margin-top: 7rem
+}
 .has-text-yellow {
   color: #f8c46c;
 }
@@ -63,12 +100,20 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
 @media screen and (max-width: 700px) {
+  .section-home h1 span::before,
+  .section-home h1 span::after {
+    display: none;
+  }
   .display  {
     display: none !important;
   }
+  .container-service {
+    flex-direction: column;
+    align-items: center;
+  }
 }
-/* Création du trait doré à gauche */
 .border-title::before {
   font-family: 'Font Awesome 5 Free';
   content: "\f0c4";
@@ -81,7 +126,6 @@ ul {
   color: var(--primary);
 }
 
-/* Création du trait doré à droite */
 .border-title::after {
   font-family: 'Font Awesome 5 Free';
   content: "\f0c4";
@@ -104,6 +148,10 @@ ul {
 }
 
 @media only screen and (max-width: 1025px) {
+  .border-info {
+    border-left: none !important;
+    border-right: none !important;
+  }
   .logo-content{
     top: 20px;
     left: 20px;
@@ -114,7 +162,7 @@ ul {
 
 /* CONTAINER */
 .container {
-  /* min-height: 100vh; */
+  min-height: 800px;
   /* max-width: none !important; */
   /* padding-top: 30px; */
 }
@@ -151,15 +199,14 @@ ul {
   position: relative;
   display: inline-block;
 }
-
 /* Création du trait doré à gauche */
 .section-home h1 span::before {
   content: "";
   position: absolute;
-  left: -150px; 
+  left: -60%; 
   top: 50%;
   transform: translateY(-50%);
-  width: 100px;
+  width: 40%;
   height: 0.8px;
   background-color: var(--primary);
 }
@@ -168,12 +215,17 @@ ul {
 .section-home h1 span::after {
   content: "";
   position: absolute;
-  right: -150px;
+  right: -60%;
   top: 50%;
   transform: translateY(-50%);
-  width: 100px;
+  width: 40%;
   height: 0.8px;
   background-color: var(--primary);
+}
+
+.border-info {
+  border-left: 0.8px solid var(--gray);
+  border-right: 0.8px solid var(--gray);
 }
 /* SECTION BARBER SHOP */
 
@@ -187,6 +239,12 @@ ul {
   background-color: black;
 }
 /* SECTION SERVICE */
+
+.container-service {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
 
 /* SECTION GALERIE */
 
@@ -251,3 +309,4 @@ ul {
   border-color: #f8c46c;
   border-radius: 2px;
 }
+
