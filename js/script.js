@@ -19,7 +19,7 @@ checkbox.addEventListener('click', function() {
 })
 
 async function showSlides(action = null) {
-  const folderLength = checkboxValue === 'magasin' ? 7 : 8
+  const folderLength = checkboxValue === 'magasin' ? 7 : 6
   const slides = document.getElementsByClassName("test")
   for (let i = 0; i < slides.length; i++) {
     const regex = /(\d+)\.png/
