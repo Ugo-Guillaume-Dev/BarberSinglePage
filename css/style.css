@@ -49,7 +49,8 @@ body {
   font-family: 'Tiro Devanagari Marathi', serif;
   background-color: #f0f0f0;
   min-width: 350px;
-  max-width: 1500px; /* A modifier pour le responsive */
+  max-width: 1500px;
+  margin: auto; /* A modifier pour le responsive */
 }
 
 .is-font-tiro {
@@ -108,10 +109,6 @@ ul {
   }
   .display  {
     display: none !important;
-  }
-  .container-service {
-    flex-direction: column;
-    align-items: center;
   }
 }
 .border-title::before {
