@@ -15,7 +15,7 @@
 <body>
 
   <!-- /* SECTION HOME */ -->
-  <section class="container section-home pt-6" >
+  <section id="home" class="container section-home pt-6" >
     <header class="pt-3">
       <div class="logo-content">
         <img src="/img/LOGO Barber 2.webp" alt="logo du BarberShop">
@@ -43,7 +43,7 @@
         <div class="column is-4 flex-column is-justify-content-space-between border-info is-align-items-center">
           <h3 class="title is-uppercase" style="color: var(--primary); margin-bottom: 0;">Téléphone</h3>
           <p class="is-uppercase is-size-5" style="color: var(--secondary); font-family: 'Baloo Bhaijaan 2', sans-serif;">05.61.40.41.50</p>
-          <p class="is-uppercase is-size-5" style="color: var(--secondary); font-family: 'Baloo Bhaijaan 2', sans-serif;">06.17.90.95.26</p>
+          <p class="is-uppercase is-size-5" style="color: var(--secondary); font-family: 'Baloo Bhaijaan 2', sans-serif;">07.75.81.79.69</p>
         </div>
         <div class="column is-4 is-justify-content-space-between is-align-items-center is-flex flex-column">
           <h3 class="title is-uppercase" style="color: var(--primary); margin-bottom: 0;">Horaires</h3>
@@ -70,7 +70,7 @@
     </div>
   </section>
   <!-- /* SECTION SERVICE */ -->
-  <section id="service" class="container" style="background-color: #1c1c1c; border-top: 0.8px solid var(--gray);">
+  <section id="service" class="container pb-6" style="background-color: #1c1c1c; border-top: 0.8px solid var(--gray);">
     <div class="is-flex-center">
       <h2 class="title is-size-1 has-text-centered has-text-white pt-6 mt-6 has-text-weight-bold is-uppercase" style="margin-bottom: 0; line-height: 0.8;">Nos services</h2>
       <div class="columns is-marginless is-centered is-mobile pb-6">
@@ -113,7 +113,7 @@
     </div>
   </section>
   <!-- /* SECTION GALERIE */ -->
-  <section id="galerie" class="container p-6" style="background-color: #000000;">
+  <section id="galerie" class="container p-6" style="background-color: #000000; border-top: 0.8px solid var(--gray); height: 100%;">
     <div class="is-flex is-align-items-center is-hidden-mobile" style="position: absolute; right: 40px; top: 60px;">
       <p class="has-text-white is-size-4 is-size-6-mobile mr-3">Réalisation / Salon</p>
       <section title=".slide">
@@ -134,41 +134,45 @@
         </div>
       </div>
     </div>
-    <div class="columns is-centered pl-6 pr-6">
-      <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
-        <div class="image-container p-4">
-          <img src="/img/coupe/coupe_1.png" alt="logo du BarberShop" ref="test" class="test">
+    <div
+      class="is-flex pb-6 pt-6 mt-3"
+      style="flex-direction: column; justify-content: space-evenly">
+      <div class="columns is-centered pl-6 pr-6 pt-6">
+        <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+          <div class="image-container p-4">
+            <img src="/img/coupe/coupe_1.png" alt="logo du BarberShop" ref="test" class="test">
+          </div>
+        </div>
+        <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+          <div class="image-container p-4">
+            <img src="/img/coupe/coupe_2.png" alt="logo du BarberShop" ref="test" class="test">
+          </div>
+        </div>
+        <div class="column is-3 is-flex is-align-items-center is-justify-content-center is-full-mobile">
+          <div class="image-container p-4">
+            <img src="/img/coupe/coupe_3.png" alt="logo du BarberShop" ref="test" class="test">
+          </div>
+        </div>
+        <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+          <div class="image-container p-4">
+            <img src="/img/coupe/coupe_4.png" alt="logo du BarberShop" ref="test" class="test">
+          </div>
+        </div>
+        <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+          <div class="image-container p-4">
+            <img src="/img/coupe/coupe_5.png" alt="logo du BarberShop" ref="test" class="test">
+          </div>
         </div>
       </div>
-      <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
-        <div class="image-container p-4">
-          <img src="/img/coupe/coupe_2.png" alt="logo du BarberShop" ref="test" class="test">
-        </div>
+      <div class="columns is-marginless is-centered is-flex is-align-items-center is-justify-content-center m-6">
+        <i class="fa-solid fa-circle-left has-text-yellow is-size-3 is-clickable" onclick="showSlides(-1)"></i>
+        <div style="width: 100px; height: 1px; background-color: #f8c46c;" class="ml-6 mr-6"></div>
+        <i class="fa-solid fa-circle-right has-text-yellow is-size-3 is-clickable" onclick="showSlides(1)"></i>
       </div>
-      <div class="column is-3 is-flex is-align-items-center is-justify-content-center is-full-mobile">
-        <div class="image-container p-4">
-          <img src="/img/coupe/coupe_3.png" alt="logo du BarberShop" ref="test" class="test">
-        </div>
-      </div>
-      <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
-        <div class="image-container p-4">
-          <img src="/img/coupe/coupe_4.png" alt="logo du BarberShop" ref="test" class="test">
-        </div>
-      </div>
-      <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
-        <div class="image-container p-4">
-          <img src="/img/coupe/coupe_5.png" alt="logo du BarberShop" ref="test" class="test">
-        </div>
-      </div>
-    </div>
-    <div class="columns is-marginless is-centered is-flex is-align-items-center is-justify-content-center m-6">
-      <i class="fa-solid fa-circle-left has-text-yellow is-size-3 is-clickable" onclick="showSlides(-1)"></i>
-      <div style="width: 100px; height: 1px; background-color: #f8c46c;" class="ml-6 mr-6"></div>
-      <i class="fa-solid fa-circle-right has-text-yellow is-size-3 is-clickable" onclick="showSlides(1)"></i>
     </div>
   </section>
   <!-- /* SECTION AVIS */ -->
-  <section class="container section-avis p-6">
+  <section class="container section-avis p-6" style="border-top: 0.8px solid var(--gray);">
     <h2 class="title is-size-1 has-text-centered has-text-white pt-6 mt-6 has-text-weight-bold is-uppercase" style="margin-bottom: 0; line-height: 0.8;">Vos avis</h2>
     <div class="columns is-marginless is-centered is-mobile pb-6">
       <div class="column is-paddingless is-narrow">
@@ -177,8 +181,10 @@
         </div>
       </div>
     </div>
-    <h2 class="title is-size-5 is-size-6-mobile has-text-centered has-text-weight-light has-text-white is-uppercase">Vos avis compent beaucoup pour nous.</h2>
-    <h2 class="title is-size-5 is-size-6-mobile has-text-centered has-text-weight-light has-text-white is-uppercase">C'est vous qui faites la différence.</h2>
+    <div class="mt-5 mb-5" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <p class="title is-size-4 has-text-centered has-text-weight-light has-text-white is-uppercase">Vos avis compent beaucoup pour nous.</p>
+      <p class="title is-size-4 has-text-centered has-text-weight-light has-text-white is-uppercase">C'est vous qui faites la différence.</p>
+    </div>
     <div class="columns is-marginless is-centered is-flex mt-6 is-multiline">
       <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3"></div>
       <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3"></div>
@@ -199,17 +205,17 @@
     </div>
   </section>
   <!-- /* SECTION GOOGLE MAPS */ -->
-  <section class="container">
+  <section class="container" style="min-height: 600px;">
     <!-- Google Maps -->
-    <div id="map" style="height: 900px; width:100%;"></div>
+    <div id="map" style="height: 600px; width:100%;"></div>
   </section>
   <!-- /* SECTION TARIF */ -->
-  <section class="container is-fullwidth section-tarif p-6">
+  <section class="container is-fullwidth section-tarif p-6" >
     <div class="columns is-marginless flex-column is-flex is-align-items-center is-justify-content-center is-fullheight display" style="position: absolute; left: 0; top: 0;">
-      <div class="is-flex is-clickable" style="transform: rotate(270deg);">
+      <a href="#home" class="is-flex is-clickable" style="transform: rotate(270deg);">
         <h2 class="title is-size-4 has-text-yellow has-text-weight-bold pr-6 ">RETOUR EN HAUT</h2>
         <p class="has-text-centered"><i class="fa-solid fa-arrow-up fa-rotate-90 is-size-4 has-text-yellow"></i></p>
-      </div>
+      </a>
     </div>
     <div class="columns is-marginless flex-column is-flex is-align-items-center is-justify-content-space-between is-fullheight display" style="position: absolute; right: 40px; top: 0;">
       <p class="has-text-white is-size-1 is-size-3-mobile"><i class="fa-solid fa-scissors fa-rotate-90" style="margin-top: 40px;"></i></p>
@@ -252,15 +258,17 @@
     </div>
     <div class="columns is-marginless flex-column is-flex is-align-items-center">
       <div class="is-flex">
-        <h3 class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Accueil</h3>
-        <h3 class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Services</h3>
-        <h3 class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Galerie</h3>
+        <a href="#home" class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Accueil</a>
+        <a href="#service" class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Services</a>
+        <a href="#galerie" class="title is-size-4-mobile has-text-white has-text-weight-normal m-6 no-wrap is-clickable">Galerie</a>
       </div>
-      <p class="title is-size-5 has-text-white has-text-weight-normal no-wrap mt-3">Copyright ® 2024. Tout droits reservés</p>
     </div>
   </section>
 
-  <footer class="container">
+  <footer class="container" style="min-height: 50px; height: 50px;">
+    <div class="columns is-marginless flex-column is-flex is-justify-content-center is-align-items-center is-fullheight" style="background-color: #000000; height: 100%;">
+      <p class="title is-size-5 has-text-white has-text-weight-normal no-wrap">Copyright ® 2024. Tout droits reservés</p>
+    </div>
   </footer>
 
   <script src="js/script.js"></script>
