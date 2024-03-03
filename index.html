@@ -3,7 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chez momo</title>
+  <title>BarberShop</title>
+  <meta name="description" content="Situé au 19 rue Boltar, 31600 Seysses, notre salon BarberShop accueille les hommes sans rendez-vous pour une prise en charge rapide et professionnelle. Que vous souhaitiez une coupe classique, une tendance moderne, ou un nouveau style capillaire, nos coiffeurs expérimentés sont là pour répondre à vos besoins.">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="URL_DE_VOTRE_SITE_ICI">
+  <meta property="og:title" content="BarberShop">
+  <meta property="og:description" content="Situé au 19 rue Boltar, 31600 Seysses, notre salon BarberShop accueille les hommes sans rendez-vous pour une prise en charge rapide et professionnelle.">
+  <meta property="og:image" content="URL_IMAGE_POUR_SOCIAL_MEDIA">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="URL_DE_VOTRE_SITE_ICI">
+  <meta name="twitter:title" content="BarberShop">
+  <meta name="twitter:description" content="Situé au 19 rue Boltar, 31600 Seysses, notre salon BarberShop accueille les hommes sans rendez-vous pour une prise en charge rapide et professionnelle.">
+  <meta name="twitter:image" content="URL_IMAGE_POUR_SOCIAL_MEDIA">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" media="only screen and (max-width:768px)" href="/CSS/style.mobile.css"/>
@@ -13,7 +26,6 @@
   <script src="https://kit.fontawesome.com/7807207f58.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
   <!-- /* SECTION HOME */ -->
   <section id="home" class="container section-home pt-6" >
     <header class="pt-3">
@@ -113,7 +125,7 @@
     </div>
   </section>
   <!-- /* SECTION GALERIE */ -->
-  <section id="galerie" class="container p-6" style="background-color: #000000; border-top: 0.8px solid var(--gray); height: 100%;">
+  <section id="galerie" class="container p-6 section-galerie" style="border-top: 0.8px solid var(--gray); height: 100%;">
     <div class="is-flex is-align-items-center is-hidden-mobile" style="position: absolute; right: 40px; top: 60px;">
       <p class="has-text-white is-size-4 is-size-6-mobile mr-3">Réalisation / Salon</p>
       <section title=".slide">
@@ -138,7 +150,7 @@
       class="is-flex pb-6 pt-6 mt-3"
       style="flex-direction: column; justify-content: space-evenly">
       <div class="columns is-centered pl-6 pr-6 pt-6">
-        <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile">
+        <div class="column is-2 is-flex is-align-items-center is-justify-content-center is-hidden-mobile" style="border: 1px solid var(--primary)">
           <div class="image-container p-4">
             <img src="/img/coupe/coupe_1.png" alt="logo du BarberShop" ref="test" class="test">
           </div>
@@ -186,7 +198,8 @@
       <p class="title is-size-4 has-text-centered has-text-weight-light has-text-white is-uppercase">C'est vous qui faites la différence.</p>
     </div>
     <div class="columns is-marginless is-centered is-flex mt-6 is-multiline">
-      <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3"></div>
+      <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3">
+      </div>
       <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3"></div>
       <div style="width: 250px; height: 250px; background-color: white; border-radius: 5px;" class="m-3"></div>
     </div>
