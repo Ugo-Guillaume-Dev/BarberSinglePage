@@ -228,7 +228,7 @@ ul {
 /* SECTION BARBER SHOP */
 
 .section-img-barber-shop {
-  background-image: url('/img/barber_equipements.webp');
+  background-image: url('img/barber_equipements.webp');
   background-size: cover;
   background-position: center;
 }
