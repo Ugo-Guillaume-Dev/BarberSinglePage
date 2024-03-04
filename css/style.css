@@ -228,7 +228,7 @@ ul {
 /* SECTION BARBER SHOP */
 
 .section-img-barber-shop {
-  background-image: url('/img/barber\ equipements.webp');
+  background-image: url('/img/barber_equipements.webp');
   background-size: cover;
   background-position: center;
 }
@@ -247,7 +247,7 @@ ul {
 /* SECTION GALERIE */
 
 .section-galerie {
-  background-image: url('/img/annie-spratt-SE7Wrgxm5M4-unsplash.jpg');
+  background-image: url('/img/annie_spratt_SE7Wrgxm5M4_unsplash.jpg');
   position: relative;
   z-index: 1;
   background-size: cover;
