@@ -309,6 +309,40 @@ ul {
   background-position: center;
 }
 
+.review-container {
+  border-radius: 5px;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.star {
+  color: gold;
+  font-size: 24px;
+}
+
+.review-text {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.review-meta {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.review-author {
+  font-weight: bold;
+}
+
+.review-date {
+  color: #666;
+}
+
 /* SECTION TARIF */
 .section-tarif {
   background-image: url('/img/barber-4618697_1280.webp');
