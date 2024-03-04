@@ -172,7 +172,7 @@ ul {
 
 /* SECTION HOME */
 .section-home {
-  background-image: url('img/stefan-schauberger-Tper6bHeSUo-unsplash.webp');
+  background-image: url('/img/stefan-schauberger-Tper6bHeSUo-unsplash.webp');
   position: relative;
   z-index: 1;
   background-size: cover;
