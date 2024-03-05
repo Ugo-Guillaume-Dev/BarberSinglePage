@@ -22,7 +22,7 @@ async function showSlides(action = null) {
   const folderLength = checkboxValue === 'magasin' ? 7 : 6
   const slides = document.getElementsByClassName("test")
   for (let i = 0; i < slides.length; i++) {
-    const regex = /(\d+)\.png/
+    const regex = /(\d+)\.webp/
     const currentPictureValue =  parseInt(slides[i].src.match(regex))
 
     if (action === 1) newPictureValue = currentPictureValue === folderLength ? 1 : currentPictureValue + 1
