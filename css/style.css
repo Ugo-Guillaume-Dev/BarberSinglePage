@@ -172,7 +172,7 @@ ul {
 
 /* SECTION HOME */
 .section-home {
-  background-image: url('/img/stefan-schauberger-Tper6bHeSUo-unsplash.webp');
+  background-image: url('../img/stefan-schauberger-Tper6bHeSUo-unsplash.webp');
   position: relative;
   z-index: 1;
   background-size: cover;
@@ -228,7 +228,7 @@ ul {
 /* SECTION BARBER SHOP */
 
 .section-img-barber-shop {
-  background-image: url('/img/barber_equipements.webp');
+  background-image: url('../img/barber_equipements.webp');
   background-size: cover;
   background-position: center;
 }
@@ -247,7 +247,7 @@ ul {
 /* SECTION GALERIE */
 
 .section-galerie {
-  background-image: url('/img/annie_spratt_SE7Wrgxm5M4_unsplash.jpg');
+  background-image: url('../img/annie_spratt_SE7Wrgxm5M4_unsplash.jpg');
   position: relative;
   z-index: 1;
   background-size: cover;
@@ -304,7 +304,7 @@ ul {
 
 /* SECTION AVIS */
 .section-avis {
-  background-image: url('/img/barber-1979440_1920.webp');
+  background-image: url('../img/barber-1979440_1920.webp');
   background-size: cover;
   background-position: center;
 }
@@ -345,7 +345,7 @@ ul {
 
 /* SECTION TARIF */
 .section-tarif {
-  background-image: url('/img/barber-4618697_1280.webp');
+  background-image: url('../img/barber-4618697_1280.webp');
   background-size: cover;
   background-position: center;
 }

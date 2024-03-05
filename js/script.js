@@ -29,7 +29,8 @@ async function showSlides(action = null) {
     else if (action === -1) newPictureValue = currentPictureValue === 1 ? folderLength : currentPictureValue - 1
     else newPictureValue = i + 1
 
-    const newUrl = `http://127.0.0.1:5500/img/${checkboxValue}/${checkboxValue}_${newPictureValue}.png`
+    const urlPath =  slides[i].src.substring(0, slides[i].src.indexOf("/img"))
+    const newUrl = `${urlPath}/img/${checkboxValue}/${checkboxValue}_${newPictureValue}.png`
     slides[i].src = newUrl
   }
 }
