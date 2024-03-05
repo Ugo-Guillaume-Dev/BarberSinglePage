@@ -30,7 +30,7 @@ async function showSlides(action = null) {
     else newPictureValue = i + 1
 
     const urlPath =  slides[i].src.substring(0, slides[i].src.indexOf("/img"))
-    const newUrl = `${urlPath}/img/${checkboxValue}/${checkboxValue}_${newPictureValue}.png`
+    const newUrl = `${urlPath}/img/${checkboxValue}/${checkboxValue}_${newPictureValue}.webp`
     slides[i].src = newUrl
   }
 }
